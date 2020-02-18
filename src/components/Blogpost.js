@@ -4,7 +4,7 @@ import { blogPost } from '../constants';
 class Blogpost extends React.Component {
 	render() {
 		return (
-			<div >
+			<div>
 				{blogPost &&
 					blogPost.map((post) => {
 						console.log(post);
@@ -13,12 +13,10 @@ class Blogpost extends React.Component {
 								<div className="date">{post.date}</div>
 								<h2>{post.location}</h2>
 								<p className="quote">{post.p1}</p>
-								<p className="quote">{post.p2}</p>
+								{/* <p className="quote">{post.p2}</p> */}
 							</div>
 						);
 					})}
-
-				<hr />
 			</div>
 		);
 	}
