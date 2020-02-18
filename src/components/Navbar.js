@@ -1,34 +1,35 @@
 import React from 'react';
+import { Menu } from 'semantic-ui-react';
 
 class Navbar extends React.Component {
 	render() {
 		return (
 			<div className="navbar">
-				<span>
-					<a className="navbar-btn" href="/">
+				
+					<span className="navbar-btn" href="/">
 						Patrick Wellman
-					</a>
-				</span>
-				<span>
-					<a className="navbar-btn" href="/">
+					</span>
+				
+				
+					<span className="navbar-btn" href="/">
 						Food Porn
-					</a>
-				</span>
-				<span c>
-					<a className="navbar-btn" href="/">
+					</span>
+				
+				
+					<span className="navbar-btn" href="/">
 						Travel
-					</a>
-				</span>
-				<span>
-					<a className="navbar-btn" href="/">
+					</span>
+				
+				
+					<span className="navbar-btn" href="/">
 						Dogs
-					</a>
-				</span>
-				<span>
-					<a className="navbar-btn" href="/l">
+					</span>
+				
+				
+					<span className="navbar-btn" href="/l">
 						Resume
-					</a>
-				</span>
+					</span>
+				
 			</div>
 		);
 	}

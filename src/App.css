@@ -130,13 +130,19 @@ h2 {
 	}
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 375px) {
+	.header {
+		height: 84vh;
+		background-position: top;
+	}
+
 	body {
+		padding: 10px;
 		font-size: 14px;
 	}
 	.navbar-btn {
 		padding: 2px 4px;
-		margin-left: 10px;
+		margin-left: 8px;
 		font-size: 8px;
 		color: rgb(51, 51, 51);
 		background-color: #3efafaa1;
@@ -147,8 +153,13 @@ h2 {
 	}
 
 	.navbar {
-		max-width: 99%;
-		margin-right: 10px;
+		left: 1%;
+		margin-top: 37%;
+		width: 347px;
+		max-width: 100%;
+	}
+
+	.hero-text-box {
 		margin-top: 25%;
 	}
 }
