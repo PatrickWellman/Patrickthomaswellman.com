@@ -1,6 +1,6 @@
 import React from 'react';
 import Landing from './Landing';
-import Blogpost from './Blogpost';
+import BlogPostList from './BlogPostList';
 import CommentDetail from './CommentDetail';
 import ApprovalCard from './ApprovalCard';
 import '../App.css';
@@ -9,8 +9,7 @@ const App = () => {
 	return (
 		<div>
 			<Landing />
-			<Blogpost />
-			<Blogpost />
+			<BlogPostList />
 
 			<CommentDetail date="Nov 20 1985" author="Patrick" comment="I fucking love the BVI" />
 
