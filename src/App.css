@@ -130,6 +130,43 @@ h2 {
 	}
 }
 
+@media only screen and (max-width: 1050px) {
+	.navbar {
+		left: 30%;
+		margin-top: 15%;
+		width: 1200px;
+		max-width: 100%;
+	}
+
+	.header {
+		height: 98vh;
+		background-position: top;
+	}
+
+	.navbar-btn {
+		padding: 5px 10px;
+		margin-left: 20px;
+		font-size: 70%;
+		color: rgb(51, 51, 51);
+		background-color: #3efafaa1;
+		border-radius: 200px;
+		border: 1px solid rgb(47, 231, 255);
+		text-transform: uppercase;
+		text-decoration: none;
+	}
+	.hero-text-box {
+		position: absolute;
+		top: 40%;
+		left: 8%;
+		font-size: 350%;
+		font-weight: 200;
+		letter-spacing: 0.4rem;
+		word-spacing: 1.3rem;
+		color: #51fdfda6;
+		animation: moveInLeft 2s ease-out;
+	}
+}
+
 @media only screen and (max-width: 780px) {
 	body {
 		padding: 10px;
