@@ -1,5 +1,5 @@
 import React from 'react';
-import { blogPost } from '../constants';
+import { blogPost } from './constants';
 
 class Blogpost extends React.Component {
 	render() {

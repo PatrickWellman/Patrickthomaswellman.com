@@ -72,6 +72,11 @@
 	width: 100%;
 	background-color: #fff;
 } */
+.ImageGrid {
+ margin-top: 12%;
+ margin-left: 10%;
+
+}
 
 h2 {
 	color: #2c3e50;
@@ -97,6 +102,11 @@ h2 {
 	max-width: 80%;
 	margin: 20px auto;
 	background-color: #e5f7fa;
+}
+
+.content {
+	margin-top: 10%;
+	margin-left: 10%;
 }
 
 @keyframes moveInLeft {
