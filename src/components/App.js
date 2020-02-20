@@ -1,10 +1,11 @@
 import React from 'react';
 import Landing from './Landing';
-import AboutMe from './AboutMe'
+import AboutMe from './AboutMe';
 import BlogPostList from './BlogPostList';
 import CommentSection from './CommentSection';
 import ImageGrid from './ImageGrid';
-import ImageDisplay from './ImageDisplay'
+import ImageDisplay from './ImageDisplay';
+import ImageExampleImageProps from './Image';
 
 import '../App.css';
 
@@ -15,10 +16,8 @@ const App = () => {
 			<AboutMe />
 			<BlogPostList />
 			<CommentSection />
-			<ImageGrid />
-			<ImageDisplay />
 
-			
+			<ImageDisplay />
 		</div>
 	);
 };
