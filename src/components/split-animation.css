@@ -1,0 +1,29 @@
+@keyframes leftWordIn {
+	0% {
+		
+		transform: translateX(50%);
+	}
+	80% {
+		transform: translateX(-20%);
+	}
+
+	100% {
+		
+		transform: translateX(0);
+	}
+}
+
+@keyframes rightWordIn {
+	0% {
+		
+		transform: translateX(-55%);
+	}
+	80% {
+		transform: translateX(25px);
+	}
+
+	100% {
+		
+		transform: translateX(0);
+	}
+}
