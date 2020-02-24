@@ -1,5 +1,5 @@
 import React from 'react';
-import Blogpost from './Blogpost';
+import Blogpost from './BlogPost';
 
 class BlogPostList extends React.Component {
 	render() {

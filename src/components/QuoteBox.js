@@ -1,15 +1,24 @@
 import React from 'react';
+import { quotes } from '../quotes';
 
 class QuoteBox extends React.Component {
-    render () {
-        return (
-            <div className="quoteBox">
-                <div className="dailyQuote">"Smoke weed every day"</div>
-                <div className="quoteAuthor">-Nate Dogg</div>
-            </div>
-        );
-    }
-
+	state = { quote: '' };
+	componentDidMount() {
+		this.setQuote();
+	}
+	setQuote = () => {
+		const quote = quotes[Math.floor(Math.random() * quotes.length)];
+		this.setState({ quote });
+	};
+	render() {
+		const { quote } = this.state;
+		return (
+			<div className="quoteBox">
+				<div className="dailyQuote">{quote.quote}</div>
+				<div className="quoteAuthor">{quote.author}</div>
+			</div>
+		);
+	}
 }
 
 export default QuoteBox;

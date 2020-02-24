@@ -1,6 +1,5 @@
 .header {
 	height: 100vh;
-	
 	background-image: radial-gradient(rgba(0, 0, 0, 0.712), rgb(0, 0, 0)), url(../src/images/IMG_4612.JPG);
 	background-size: cover;
 	background-position: center;
@@ -8,42 +7,37 @@
 	position: relative;
 	border: 4px solid rgb(0, 0, 0);
 }
-.quoteBox {
-	position: relative;
-	top: 90%;
-	left: 30%;
 
-}
+
 
 .hero-text-box {
 	position: relative;
-	
 	max-width: 100%;
 	top: 44%;
 	left: 4%;
-
-	
-	font-size: 7rem;
+	font-size: 7em;
 	font-weight: 100;
 	letter-spacing: 2.6rem;
 	word-spacing: 1.0rem;
 	color: #51fdfdb2;
-	/* animation: moveInLeft 2s; */
 	text-transform: uppercase;
 	
 }
 
 .quoteBox {
-	position: fixed;
-	top: 70%;
-	left: 60%;
+
+	line-height: 1.5;
+	display: inline-block;
+	position: absolute;
+	top: 65%;
+	left: 45%;
 
 }
 
 .dailyQuote {
 	font-size: 2rem;
 	margin-bottom: 1rem;
-	animation: fadeIn 4s;
+	animation: fadeIn 3s ease-in;
 	font-weight: 200;
 	color:#51fdfd7e
 
@@ -52,38 +46,10 @@
 .quoteAuthor {
 	font-size: 1.2rem;
 	margin-left: 14rem;
-	animation: fadeIn 4s;
+	animation: fadeIn 3s ease-in;
 	font-weight: 200;
 	color:#51fdfd7e
 
-}
-
-@keyframes fadeIn {
-	0%{ opacity: 0;
-
-	}
-
-	20%{ opacity: 0;
-
-	}
-
-	40%{ opacity: 0
-
-	}
-
-	60%{ opacity: 0.2;
-
-	
-	
-}
-
-80%{ opacity: 0.6;
-
-}
-
-100%{ opcaicty: 1;
-
-}
 }
 
 .word1 {
@@ -99,6 +65,11 @@
 
 	animation: rightWordIn 3s ease-in;
 }
+
+.ImageGrid {
+	background-color: black;
+}
+
 
 h2 {
 	color: #2c3e50;
@@ -130,6 +101,36 @@ h2 {
 	margin-top: 10%;
 	margin-left: 10%;
 }
+
+@keyframes fadeIn {
+	0%{ opacity: 0;
+
+	}
+
+	20%{ opacity: 0;
+
+	}
+
+	40%{ opacity: 0
+
+	}
+
+	60%{ opacity: 0.2;
+
+	
+	
+}
+
+80%{ opacity: 0.6;
+
+}
+
+100%{ opcaicty: 1;
+
+}
+}
+
+
 
 @keyframes leftWordIn {
 	0% {
