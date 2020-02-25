@@ -8,8 +8,6 @@
 	border: 4px solid rgb(0, 0, 0);
 }
 
-
-
 .hero-text-box {
 	position: relative;
 	max-width: 100%;
@@ -21,17 +19,14 @@
 	word-spacing: 1.0rem;
 	color: #51fdfdb2;
 	text-transform: uppercase;
-	
 }
 
 .quoteBox {
-
 	line-height: 1.5;
 	display: inline-block;
 	position: absolute;
 	top: 65%;
 	left: 45%;
-
 }
 
 .dailyQuote {
@@ -39,8 +34,7 @@
 	margin-bottom: 1rem;
 	animation: fadeIn 3s ease-in;
 	font-weight: 200;
-	color:#51fdfd7e
-
+	color: #51fdfd7e;
 }
 
 .quoteAuthor {
@@ -48,8 +42,7 @@
 	margin-left: 14rem;
 	animation: fadeIn 3s ease-in;
 	font-weight: 200;
-	color:#51fdfd7e
-
+	color: #51fdfd7e;
 }
 
 .word1 {
@@ -69,7 +62,6 @@
 .ImageGrid {
 	background-color: black;
 }
-
 
 h2 {
 	color: #2c3e50;
@@ -103,34 +95,30 @@ h2 {
 }
 
 @keyframes fadeIn {
-	0%{ opacity: 0;
-
+	0% {
+		opacity: 0;
 	}
 
-	20%{ opacity: 0;
-
+	20% {
+		opacity: 0;
 	}
 
-	40%{ opacity: 0
-
+	40% {
+		opacity: 0;
 	}
 
-	60%{ opacity: 0.2;
+	60% {
+		opacity: 0.2;
+	}
 
-	
-	
+	80% {
+		opacity: 0.6;
+	}
+
+	100% {
+		opcaicty: 1;
+	}
 }
-
-80%{ opacity: 0.6;
-
-}
-
-100%{ opcaicty: 1;
-
-}
-}
-
-
 
 @keyframes leftWordIn {
 	0% {
@@ -166,8 +154,13 @@ h2 {
 	}
 }
 
+@media only screen and (max-width: 1356px) {
+	.word2 {
+		transform: translateX(-0.01rem) translateY(6rem);
+	}
+}
+
 @media only screen and (max-width: 1050px) {
-	
 	.hero-text-box {
 		position: absolute;
 		top: 40%;
@@ -179,19 +172,23 @@ h2 {
 		color: #51fdfda6;
 		/* animation: moveInLeft 2s ease-out; */
 	}
+	.word2 {
+		transform: translateX(0) translateY(0);
+	}
 }
 
 @media only screen and (max-width: 780px) {
-	
 	.hero-text-box {
 		margin-top: 12%;
 	}
 }
 
 @media only screen and (max-width: 480px) {
-	
-
 	.hero-text-box {
 		margin-top: 25%;
+	}
+
+	.quoteBox {
+		margin-right: 1rem;
 	}
 }
