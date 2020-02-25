@@ -185,10 +185,15 @@ h2 {
 
 @media only screen and (max-width: 480px) {
 	.hero-text-box {
-		margin-top: 25%;
+		margin-top: 15%;
+		transform: translateX(-6%);
+	   
 	}
 
-	.quoteBox {
-		margin-right: 1rem;
+
+	.dailyQuote, .quoteAuthor {
+		font-size: 1rem;
+		transform: translateX(-100px);
+		
 	}
 }
