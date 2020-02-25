@@ -8,9 +8,11 @@ import Navigation from './Navigation';
 
 import '../App.css';
 
+
 const App = () => {
 	return (
 		<div>
+			<Navigation />
 			<Landing />
 			<ImageGrid />
 

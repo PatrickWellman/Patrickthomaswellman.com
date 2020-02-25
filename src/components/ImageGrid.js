@@ -21,57 +21,57 @@ class ImageGrid extends React.Component {
 					<Grid centered columns={4}>
 						<Grid.Row>
 							<Grid.Column>
-								<Image src={Pic2} size="large
+								<Image src={Pic2} size="medium
 								" />
 							</Grid.Column>
 							<Grid.Column>
-								<Image src={Pic3} size="large
+								<Image src={Pic3} size="medium
 								" />
 							</Grid.Column>
 							<Grid.Column>
-								<Image src={Pic4} size="large
+								<Image src={Pic4} size="medium
 								" />
 							</Grid.Column>
 							<Grid.Column>
-								<Image src={Pic5} size="large
-								" />
-							</Grid.Column>
-						</Grid.Row>
-
-						<Grid.Row centered columns={4}>
-							<Grid.Column>
-								<Image src={Pic6} size="large
-								" />
-							</Grid.Column>
-							<Grid.Column>
-								<Image src={Pic7} size="large
-								" />
-							</Grid.Column>
-							<Grid.Column>
-								<Image src={Pic8} size="large
-								" />
-							</Grid.Column>
-							<Grid.Column>
-								<Image src={Pic9} size="large
+								<Image src={Pic5} size="medium
 								" />
 							</Grid.Column>
 						</Grid.Row>
 
 						<Grid.Row centered columns={4}>
 							<Grid.Column>
-								<Image src={Pic10} size="large
+								<Image src={Pic6} size="medium
 								" />
 							</Grid.Column>
 							<Grid.Column>
-								<Image src={Pic11} size="large
+								<Image src={Pic7} size="medium
 								" />
 							</Grid.Column>
 							<Grid.Column>
-								<Image src={Pic12} size="large
+								<Image src={Pic8} size="medium
 								" />
 							</Grid.Column>
 							<Grid.Column>
-								<Image src={Bo} size="large
+								<Image src={Pic9} size="medium
+								" />
+							</Grid.Column>
+						</Grid.Row>
+
+						<Grid.Row centered columns={4}>
+							<Grid.Column>
+								<Image src={Pic10} size="medium
+								" />
+							</Grid.Column>
+							<Grid.Column>
+								<Image src={Pic11} size="medium
+								" />
+							</Grid.Column>
+							<Grid.Column>
+								<Image src={Pic12} size="medium
+								" />
+							</Grid.Column>
+							<Grid.Column>
+								<Image src={Bo} size="medium
 								" />
 							</Grid.Column>
 						</Grid.Row>

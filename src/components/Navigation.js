@@ -1,4 +1,5 @@
 import React from 'react';
+import '../css/navigation.css';
 
 class Navigation extends React.Component {
 	render() {
@@ -14,7 +15,7 @@ class Navigation extends React.Component {
 					<ul className="navigation__list">
 						<li className="navigation__item">
 							<a href="#" className="navigation__link">
-								from pie crust to cookie crumbs
+								crust to crumbs
 							</a>
 						</li>
 						<li className="navigation__item">
