@@ -5,8 +5,8 @@
 }
 
 .navigation__button {
-	color: black;
-	background-image: radial-gradient(#9dfdfd, #40c9c9);
+	color: white;
+	background-image: radial-gradient(#63e2e2, #40c9c9);
 	height: 5rem;
 	width: 5rem;
 	position: fixed;
@@ -15,6 +15,8 @@
 	border-radius: 50%;
 	z-index: 2000;
 }
+
+
 
 .navigation__button__back {
 	position: fixed;
@@ -29,18 +31,22 @@
 	z-index: 1200;
 }
 
+
+
 .navigation__icon__back {
 	position: fixed;
 	top: 5.7rem;
-	right: 5.6rem;
-	font-size: 3rem;
+	right: 5.8rem;
+	font-size: 2.5rem;
+	font-weight: 200;
 
 }
 
 
 
 .navigation__button:hover{
-		background-image: radial-gradient(#9dfdfd, #2d9292);
+		background-image: radial-gradient(#6affff, #2fffff);
+		border: solid 2px #6affff;
 
 	
 }
@@ -148,5 +154,5 @@
 	position: fixed;
 	right: 4.8rem;
 	top: 5.85rem;
-	color: black;
+	color: whitesmoke;
 }
