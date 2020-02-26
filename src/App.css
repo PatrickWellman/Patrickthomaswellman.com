@@ -29,6 +29,10 @@
 }
 
 @media only screen and (max-width: 480px) {
+	.header{
+		height: 736px;
+		width: 420px;
+	}
 	.hero-text-box {
 		margin-top: 15%;
 		transform: translateX(-6%);
