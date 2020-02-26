@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/navigation.css';
+import '../navigation.css';
 
 class Navigation extends React.Component {
 	render() {
@@ -9,7 +9,10 @@ class Navigation extends React.Component {
 				<label for="navi__toggle" className="navigation__button">
 					<span className="navigation__icon">MENU</span>
 				</label>
-				<div className="navigation__background">X</div>
+				<div className="navigation__background" />
+				<label for="navi__toggle" className="navigation__button__back">
+					<span className="navigation__icon__back">X</span>
+				</label>
 
 				<nav className="navigation__nav">
 					<ul className="navigation__list">

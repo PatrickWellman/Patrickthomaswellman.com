@@ -1,0 +1,23 @@
+.quoteBox {
+	line-height: 1.5;
+	display: inline-block;
+	position: absolute;
+	top: 65%;
+	left: 45%;
+}
+
+.dailyQuote {
+	font-size: 2rem;
+	margin-bottom: 1rem;
+	animation: fadeIn 3s ease-in;
+	font-weight: 200;
+	color: #51fdfd7e;
+}
+
+.quoteAuthor {
+	font-size: 1.2rem;
+	margin-left: 14rem;
+	animation: fadeIn 3s ease-in;
+	font-weight: 200;
+	color: #51fdfd7e;
+}

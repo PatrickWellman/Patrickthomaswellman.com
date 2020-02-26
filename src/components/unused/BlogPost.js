@@ -1,6 +1,5 @@
 import React from 'react';
 import { blogPost } from './constants';
-import {Container} from 'semantic-ui-react'
 
 class BlogPost extends React.Component {
 	render() {

@@ -1,4 +1,5 @@
 import React from 'react';
+import './commentDetail.css';
 
 const CommentDetail = (props) => {
 	return (

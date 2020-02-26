@@ -1,8 +1,6 @@
 import React from 'react';
 import Landing from './Landing';
-import AboutMe from './AboutMe';
-import BlogPostList from './BlogPostList';
-
+import ImageGrid from './ImageGrid';
 import Navigation from './Navigation';
 
 import '../App.css';
@@ -12,6 +10,8 @@ const App = () => {
 		<div>
 			<Navigation />
 			<Landing />
+			<ImageGrid />
+			
 		</div>
 	);
 };

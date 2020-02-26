@@ -1,0 +1,25 @@
+.quote {
+	border-left: 5px solid #bdc3c7;
+	padding-left: 5px;
+}
+
+.date {
+	text-transform: uppercase;
+	color: #1e458f;
+	letter-spacing: 0.2rem;
+}
+
+.post {
+	border: 20px solid #d4d5d6;
+	border-radius: 200px;
+	padding: 120px;
+	width: 1200px;
+	max-width: 100%;
+	margin: 15px auto;
+	background-color: #e5f7fa;
+}
+
+.content {
+	margin-top: 10%;
+	
+}

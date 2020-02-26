@@ -1,5 +1,6 @@
 import React from 'react';
 import QuoteBox from './QuoteBox';
+import '../landing.css';
 
 class Landing extends React.Component {
 	render() {
