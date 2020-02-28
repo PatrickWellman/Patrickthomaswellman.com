@@ -150,3 +150,37 @@
 	top: 5.85rem;
 	color: whitesmoke;
 }
+
+@media only screen and (max-width: 480px) {
+	.navigation__button {
+		height: 3rem;
+		width: 3rem;
+		top: 5rem;
+		right: 5rem;
+	}
+
+	.navigation__icon {
+		font-size: 0.6rem;
+		right: 5.4rem;
+		top: 5.85rem;
+	}
+
+	.navigation__button__back {
+		height: 3rem;
+		width: 3rem;
+		top: 5rem;
+		right: 5rem;
+	}
+
+	.navigation__icon__back {
+		right: 5.75rem;
+		top: 5.7rem;
+	}
+
+	.navigation__background {
+		height: 3rem;
+		width: 3rem;
+		right: 5rem;
+		top: 5rem;
+	}
+}
