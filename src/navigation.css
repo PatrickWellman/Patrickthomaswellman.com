@@ -155,32 +155,32 @@
 	.navigation__button {
 		height: 3rem;
 		width: 3rem;
-		top: 5rem;
-		right: 5rem;
+		top: 4rem;
+		right: 4rem;
 	}
 
 	.navigation__icon {
 		font-size: 0.6rem;
-		right: 5.4rem;
-		top: 5.85rem;
+		right: 4.4rem;
+		top: 4.8rem;
 	}
 
 	.navigation__button__back {
 		height: 3rem;
 		width: 3rem;
-		top: 5rem;
-		right: 5rem;
+		top: 4rem;
+		right: 4rem;
 	}
 
 	.navigation__icon__back {
-		right: 5.75rem;
-		top: 5.7rem;
+		right: 4.725rem;
+		top: 4.73rem;
 	}
 
 	.navigation__background {
 		height: 3rem;
 		width: 3rem;
-		right: 5rem;
-		top: 5rem;
+		right: 4rem;
+		top: 4rem;
 	}
 }
