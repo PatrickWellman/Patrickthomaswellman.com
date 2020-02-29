@@ -1,4 +1,5 @@
 import React from 'react';
+import '../imagegrid.css'
 import Bo from '../images/IMG_0092.jpg';
 import Pic2 from '../images/IMG_4611.jpg';
 import Pic3 from '../images/IMG_0092.jpg';

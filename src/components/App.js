@@ -2,6 +2,7 @@ import React from 'react';
 import Landing from './Landing';
 import ImageGrid from './ImageGrid';
 import Navigation from './Navigation';
+import AboutMe from './AboutMe'
 
 import '../App.css';
 
@@ -10,7 +11,9 @@ const App = () => {
 		<div>
 			<Navigation />
 			<Landing />
+			<AboutMe />
 			<ImageGrid />
+			
 			
 		</div>
 	);
