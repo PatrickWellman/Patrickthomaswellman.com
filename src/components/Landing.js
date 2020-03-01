@@ -5,7 +5,7 @@ import '../landing.css';
 class Landing extends React.Component {
 	render() {
 		return (
-			<div className="header">
+			<div className="head">
 				<div className="hero-text-box">
 					<span className="word1">Patrick</span>
 					<span className="word2"> Wellman</span>

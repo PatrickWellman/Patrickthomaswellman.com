@@ -6,11 +6,12 @@ class AboutMe extends React.Component {
 	render() {
 		return (
 			<div className="aboutMeSection">
+				<Header as="h2">PATRICK WELLMAN</Header>
 				<Container>
-					Patrick was born in New Orleans Louisiana. Shortly after, his family moved to New Haven Connecticut.
-					This set the tone for the rest of his life- to this day, he has never lived anywhere for more than
-					four years. Some of the more notable places he's lived include Zurich, Geneva, Moscow, and Miami
-					Beach. <br /> Patrick began working as a Pastry Chef in 2013.
+					I was born in New Orleans Louisiana. Shortly after, my family moved to New Haven Connecticut. This
+					set the tone for the rest of my life- to this day, I have never lived anywhere for more than four
+					years. Some of the more notable places I have lived include Zurich, Geneva, Moscow, and Miami Beach.{' '}
+					<br />
 				</Container>
 			</div>
 		);
