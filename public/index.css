@@ -10,6 +10,7 @@
 }
 
 body {
+	padding: 30px;
 	font-family: Noto Sans JP;
 	letter-spacing: 1.7px;
 	color: rgb(0, 43, 110);
