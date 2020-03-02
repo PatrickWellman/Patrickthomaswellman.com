@@ -36,6 +36,12 @@
 	animation: rightWordIn 3s ease-in;
 }
 
+.socialLinksLanding {
+	position: absolute;
+	top: 90%;
+	right: 90%;
+	font-size: 2rem;
+}
 @keyframes leftWordIn {
 	0% {
 		opacity: 0;

@@ -1,6 +1,7 @@
 import React from 'react';
 import QuoteBox from './QuoteBox';
 import '../landing.css';
+import SocialLinks from './SocialLinks'
 
 class Landing extends React.Component {
 	render() {
@@ -12,6 +13,9 @@ class Landing extends React.Component {
 				</div>
 				<div>
 					<QuoteBox />
+				</div>
+				<div className="socialLinksLanding">
+					<SocialLinks />
 				</div>
 			</div>
 		);
