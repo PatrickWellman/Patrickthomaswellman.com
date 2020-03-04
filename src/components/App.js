@@ -8,15 +8,12 @@ import MyGallery from './MyGallery';
 
 import '../App.css';
 
-
 const App = () => {
 	return (
 		<div>
-		
 			<Navigation />
 			<Landing />
 			<AboutMe />
-			<ImageGrid />
 		</div>
 	);
 };
