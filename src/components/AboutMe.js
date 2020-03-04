@@ -7,6 +7,7 @@ class AboutMe extends React.Component {
 		return (
 			<div className="aboutMeSection">
 				<div className="title">ABOUT PATRICK</div>
+				<div className="coolLine"></div>
 
 				<Container>
 					<p>
@@ -24,7 +25,7 @@ class AboutMe extends React.Component {
 					<p>
 						I've recently relocated to the Los Angeles area from Nashville to be closer to the heart of the
 						tech industry, (not just for the amazing weather). I'm very excited to be in such an exciting place.
-						New restaurants are popping up every day, and I can't wait to try them all out. 
+						New restaurants are popping up every day and I can't wait to try them all out. 
 					</p>
 				</Container>
 			</div>
