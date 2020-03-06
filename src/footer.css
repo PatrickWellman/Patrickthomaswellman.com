@@ -1,0 +1,18 @@
+.footerSection {
+    
+    text-align: right;
+  background-color: black;
+    font-size: 200%;
+    padding: 2rem;
+}
+
+.footerText {
+    margin-right: 2rem;
+    display: inline-block;
+}
+
+.linkBox {
+    margin-right: 2rem;
+    display: inline-block;
+}
+
