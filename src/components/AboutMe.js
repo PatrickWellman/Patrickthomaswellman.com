@@ -9,7 +9,7 @@ class AboutMe extends React.Component {
 				<div className="title">ABOUT PATRICK</div>
 				<div className="coolLine"></div>
 
-				<Container>
+				
 					<p>
 						I was born in New Orleans Louisiana. Shortly after, my family moved to New Haven, Connecticut.
 						This set the tone for the rest of my life- to this day, I have never lived anywhere for more
@@ -27,7 +27,7 @@ class AboutMe extends React.Component {
 						tech industry, (not just for the amazing weather). I'm very excited to be in such an exciting place.
 						New restaurants are popping up every day and I can't wait to try them all out. 
 					</p>
-				</Container>
+			
 			</div>
 		);
 	}

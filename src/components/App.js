@@ -3,7 +3,7 @@ import Landing from './Landing';
 import ImageGrid from './ImageGrid';
 import Navigation from './Navigation';
 import AboutMe from './AboutMe';
-import Footer from './Footer'
+import Footer from './Footer';
 
 import MyGallery from './MyGallery';
 
@@ -15,7 +15,8 @@ const App = () => {
 			<Navigation />
 			<Landing />
 			<AboutMe />
-			<Footer />
+			
+			
 		</div>
 	);
 };

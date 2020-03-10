@@ -9,6 +9,7 @@
 
 .aboutMeSection {
 	height: 90vh;
+	position: relative;
 	margin: 5rem 0;
 	padding: 0 12.5%;
 	font-weight: 300;
