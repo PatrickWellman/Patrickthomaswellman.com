@@ -1,6 +1,5 @@
 import Bo from './images/IMG_0092.jpg';
 import Pic2 from './images/IMG_4611.jpg';
-import Pic3 from './images/IMG_0092.jpg';
 import Pic4 from './images/IMG_0353.jpg';
 import Pic5 from './images/JBF_Catbird_966.JPG';
 import Pic6 from './images/IMG_5929.jpg';
@@ -12,172 +11,172 @@ import Pic11 from './images/IMG_7308.jpg';
 import Pic12 from './images/IMG_8299.jpg';
 import Tiffany from './images/tiffany.JPG';
 import Pic14 from './images/cookies.JPG';
-import Pic15 from './images/JBF_Catbird_920 2.JPG';
 import Pic16 from './images/IMG_2332.JPG';
+
 
 export const photos = [
     {
-        src: Bo,
+        src:  Bo ,
         width: 4,
         height: 3
     },
     {
-        src: Pic7,
+        src:  Pic7 ,
         width: 2,
         height: 1.25
     },
     {
-        src: Pic16,
+        src:  Pic16 ,
         width: 4,
         height: 3
     },
     {
-        src: Pic10,
+        src:  Pic10 ,
         width: 4,
         height: 1
     },
     {
-        src: Pic2,
+        src:  Pic2 ,
         width: 2.5,
         height: 2
     },
     {
-        src: Pic4,
+        src:  Pic4 ,
         width: 3,
         height: 2
     },
     {
-        src: Pic5,
+        src:  Pic5 ,
         width: 4,
         height: 3
     },
     {
-        src: Pic6,
+        src:  Pic6 ,
         width: 3.25,
         height: 3
     },
     {
-        src: Tiffany,
+        src:  Tiffany ,
         width: 4,
         height: 3
     },
     {
-        src: Pic11,
+        src:  Pic11 ,
         width: 4,
         height: 3
     },
     {
-        src: Pic7,
+        src:  Pic7 ,
         width: 2,
         height: 1.25
     },
     {
-        src: Pic2,
+        src:  Pic2 ,
         width: 2.5,
         height: 2
     },
     {
-        src: Pic10,
+        src:  Pic10 ,
         width: 4,
         height: 1
     },
     {
-        src: Pic2,
+        src:  Pic2 ,
         width: 2.5,
         height: 2
     },
     {
-        src: Pic4,
+        src:  Pic4 ,
         width: 3,
         height: 2
     },
     {
-        src: Pic5,
+        src:  Pic5 ,
         width: 4,
         height: 3
     },
     {
-        src: Pic6,
+        src:  Pic6 ,
         width: 3.25,
         height: 3
     },
     {
-        src: Tiffany,
+        src:  Tiffany ,
         width: 4,
         height: 3
     },
     {
-        src: Pic2,
+        src:  Pic2,
         width: 2.5,
         height: 2
     },
     {
-        src: Pic4,
+        src:  Pic4 ,
         width: 3,
         height: 2
     },
     {
-        src: Pic5,
+        src:  Pic5 ,
         width: 4,
         height: 3
     },
     {
-        src: Pic16,
+        src:  Pic16 ,
         width: 4,
         height: 3
     },
     {
-        src: Pic6,
+        src:  Pic6 ,
         width: 3.25,
         height: 3
     },
     {
-        src: Tiffany,
+        src:  Tiffany ,
         width: 4,
         height: 3
     },
     {
-        src: Bo,
+        src:  Bo ,
         width: 4,
         height: 3
     },
     {
-        src: Pic8,
+        src:  Pic8 ,
         width: 2,
         height: 1
     },
     {
-        src: Pic2,
+        src:  Pic2 ,
         width: 2.5,
         height: 2
     },
     {
-        src: Pic16,
+        src:  Pic16 ,
         width: 4,
         height: 3
     },
     {
-        src: Pic10,
+        src:  Pic10 ,
         width: 4,
         height: 1
     },
     {
-        src: Pic4,
+        src:  Pic4 ,
         width: 3,
         height: 2
     },
     {
-        src: Pic5,
+        src:  Pic5 ,
         width: 4,
         height: 3
     },
     {
-        src: Pic6,
+        src:  Pic6 ,
         width: 3.25,
         height: 3
     },
     {
-        src: Tiffany,
+        src:  Tiffany ,
         width: 4,
         height: 3
     },
