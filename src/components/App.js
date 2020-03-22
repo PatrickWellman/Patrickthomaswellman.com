@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Landing from './Landing';
 import Navigation from './Navigation';
-import AboutMe from './AboutMe';
+import AboutMe from './AboutMe';=
 import ChefStuff from './NavComponents/ChefStuff';
 import CrustToCrumbs from './NavComponents/CrustToCrumbs';
 import PhotoGallery from './NavComponents/PhotoGallery';
