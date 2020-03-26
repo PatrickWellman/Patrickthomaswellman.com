@@ -9,7 +9,6 @@ const App = () => {
 		<div>
 			<Navigation />
 			<Landing />
-
 			<AboutMe />
 		</div>
 	);
