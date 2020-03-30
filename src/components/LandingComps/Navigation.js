@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../navigation.css';
+import '../CSS/navigation.css';
 
 class Navigation extends React.Component {
   state = { isMenuOpen: false };

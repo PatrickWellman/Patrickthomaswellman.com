@@ -1,6 +1,6 @@
 import React from 'react';
-import { quotes } from '../quotes';
-import '../quoteBox.css';
+import { quotes } from '../../quotes';
+import '../CSS/quoteBox.css';
 
 class QuoteBox extends React.Component {
 	state = { quote: '' };

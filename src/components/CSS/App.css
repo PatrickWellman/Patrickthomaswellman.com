@@ -26,9 +26,9 @@
 	.hero-text-box {
 		margin-top: 12%;
 	}
-}
 
-@media only screen and (max-width: 480px) {
+
+ @media only screen and (max-width: 480px) {
 	
 	.hero-text-box {
 		margin-top: 15%;
@@ -40,4 +40,4 @@
 		font-size: 1rem;
 		transform: translateX(-100px);
 	}
-}
+ }}
