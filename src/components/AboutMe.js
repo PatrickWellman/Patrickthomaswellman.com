@@ -1,6 +1,6 @@
 import React from 'react';
-import '../aboutme.css';
-import { Container } from 'semantic-ui-react';
+import './CSS/aboutme.css';
+
 
 class AboutMe extends React.Component {
 	render() {
