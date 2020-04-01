@@ -1,13 +1,13 @@
-import Bo from './images/IMG_0092.jpg';
-import Pic2 from './images/IMG_4611.jpg';
+import Bo from './images/PhotoSection/IMG_0092.jpg';
+import Pic2 from './images/PhotoSection/IMG_4611.jpg';
 
-import Pic7 from './images/IMG_6214.jpg';
-import Pic8 from './images/IMG_7889.jpg';
-import Pic10 from './images/Hero-image.jpg';
-import Pic11 from './images/IMG_7308.jpg';
-import Tiffany from './images/tiffany.JPG';
+import Pic7 from './images/PhotoSection/IMG_6214.jpg';
+import Pic8 from './images/PhotoSection/IMG_7889.jpg';
+import Pic10 from './images/PhotoSection/Hero-image.jpg';
+import Pic11 from './images/PhotoSection/IMG_7308.jpg';
+import Tiffany from './images/PhotoSection/tiffany.JPG';
 
-import Pic16 from './images/IMG_2332.JPG';
+
 
 export const photos = [
 	{
@@ -94,11 +94,6 @@ export const photos = [
 		src: Pic11,
 		width: 4,
 		height: 3
-	},
-	{
-		src: Pic2,
-		width: 2,
-		height: 1.25
 	}
 
 
