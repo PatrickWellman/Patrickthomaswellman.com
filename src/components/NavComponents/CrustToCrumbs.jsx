@@ -1,8 +1,11 @@
 import React from 'react';
+import AboutMe  from '../AboutMe';
 
 class CrustToCrumbs extends React.Component {
   render() {
-    return <div>CrustToCrumbs</div>;
+    return <div>
+      <AboutMe />
+    </div>;
   }
 }
 

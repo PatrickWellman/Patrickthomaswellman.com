@@ -1,8 +1,13 @@
 import React from 'react';
+import  FoodGallery  from '../FoodGallery';
 
 class ChefStuff extends React.Component {
 	render() {
-		return <div>Tiffany</div>;
+		return (
+			<div>
+				<FoodGallery />
+			</div>
+		);
 	}
 }
 
