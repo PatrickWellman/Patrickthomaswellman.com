@@ -2,7 +2,6 @@
 	font-size: 2.5rem;
 	letter-spacing: 1.25rem;
 	margin-bottom: 2rem;
-	margin-top: 2rem;
 	font-weight: 300;
 	text-align: center;
 }
@@ -10,14 +9,12 @@
 .aboutMeSection {
 	height: 90vh;
 	position: relative;
-	margin: 5rem 0;
+	margin: 2rem 0;
 	padding: 0 12.5%;
 	font-weight: 300;
 	font-size: 200%;
 	line-height: 1.7;
 }
-
-
 
 .coolLine {
 	margin-left: 12.5%;
