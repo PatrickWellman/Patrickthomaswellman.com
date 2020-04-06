@@ -1,6 +1,7 @@
 import React from 'react';
 import PhotoGallery from '../PhotoGallery';
 import NaviBar from '../LandingComps/NaviBar';
+import '../CSS/photosection.css';
 
 class PhotoSection extends React.Component {
 	render() {
@@ -9,7 +10,7 @@ class PhotoSection extends React.Component {
 				<div>
 					<NaviBar />
 				</div>
-				<div>
+				<div className="photoGallery">
 					<PhotoGallery />
 				</div>
 			</div>

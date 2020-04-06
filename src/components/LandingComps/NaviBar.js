@@ -29,6 +29,11 @@ class NaviBar extends React.Component {
 								resume
 							</Link>
 						</li>
+						<li className="navigation__item">
+							<Link to="" className="navigation__link" onClick={this.toggleMenu}>
+								home
+							</Link>
+						</li>
 					</ul>
 				</nav>
 			</Container>
