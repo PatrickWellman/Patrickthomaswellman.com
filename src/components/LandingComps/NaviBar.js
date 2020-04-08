@@ -21,7 +21,7 @@ class NaviBar extends React.Component {
 						</li>
 						<li className="navigation__item">
 							<Link to="/chefstuff" className="navigation__link" onClick={this.toggleMenu}>
-								chefstuff
+								chef stuff
 							</Link>
 						</li>
 						<li className="navigation__item">
