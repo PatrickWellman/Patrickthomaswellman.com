@@ -1,90 +1,104 @@
-import Bo from './images/PhotoSection/IMG_0092.jpg';
-import Pic2 from './images/PhotoSection/IMG_4611.jpg';
-import Pic7 from './images/PhotoSection/IMG_6214.jpg';
-import Pic8 from './images/PhotoSection/IMG_7889.jpg';
-import Pic10 from './images/PhotoSection/Hero-image.jpg';
-import Pic11 from './images/PhotoSection/IMG_7308.jpg';
-import Tiffany from './images/PhotoSection/tiffany.JPG';
+import image1 from './images/PhotoSection/photo1.jpg';
+import image2 from './images/PhotoSection/photo2.jpg';
+import image3 from './images/PhotoSection/photo3.jpg';
+import image4 from './images/PhotoSection/photo4.jpg';
+import image5 from './images/PhotoSection/photo5.jpg';
+import image6 from './images/PhotoSection/photo6.jpg';
+import image7 from './images/PhotoSection/photo7.jpg';
+import image8 from './images/PhotoSection/photo8.jpg';
+import image10 from './images/PhotoSection/photo10.jpg';
+import image11 from './images/PhotoSection/photo11.jpg';
+import image13 from './images/PhotoSection/photo13.jpg';
+import image14 from './images/PhotoSection/photo14.jpg';
+import image16 from './images/PhotoSection/photo16.jpg';
+import image17 from './images/PhotoSection/photo17.jpg';
+import image18 from './images/PhotoSection/photo18.jpg';
+import image19 from './images/PhotoSection/photo19.jpg';
+import image20 from './images/PhotoSection/photo20.jpg';
 
 export const photos = [
 	{
-		src: Bo,
+		src: image1,
+		width: 4,
+		height: 1
+	},
+	{
+		src: image2,
+		width: 2,
+		height: 1.5
+	},
+
+	{
+		src: image3,
+		width: 4,
+		height: 2.5
+	},
+	{
+		src: image4,
 		width: 4,
 		height: 3
 	},
 	{
-		src: Pic7,
+		src: image5,
+		width: 3,
+		height: 4
+	},
+	{
+		src: image6,
+		width: 3,
+		height: 2
+	},
+	{
+		src: image7,
+		width: 3,
+		height: 4
+	},
+	{
+		src: image8,
+		width: 3,
+		height: 2
+	},
+
+	
+	{
+		src: image11,
+		width: 3,
+		height: 4
+	},
+	
+	{
+		src: image13,
+		width: 4,
+		height: 3
+	},
+	{
+		src: image14,
 		width: 2,
 		height: 1.25
 	},
 
 	{
-		src: Tiffany,
+		src: image16,
 		width: 4,
 		height: 3
 	},
 	{
-		src: Pic11,
+		src: image17,
 		width: 4,
 		height: 3
 	},
 	{
-		src: Pic10,
-		width: 4,
-		height: 1
-	},
-	{
-		src: Pic2,
-		width: 2,
-		height: 1.25
-	},
-	{
-		src: Tiffany,
+		src: image18,
 		width: 4,
 		height: 3
 	},
 	{
-		src: Pic7,
-		width: 2,
-		height: 1.25
-	},
-	{
-		src: Pic11,
+		src: image19,
 		width: 4,
 		height: 3
 	},
 	{
-		src: Pic2,
-		width: 2,
-		height: 1.25
-	},
-	{
-		src: Pic11,
-		width: 4,
-		height: 3
-	},
-	{
-		src: Pic10,
-		width: 4,
-		height: 1
-	},
-	{
-		src: Pic2,
-		width: 2,
-		height: 1.25
-	},
-	{
-		src: Pic8,
-		width: 2,
-		height: 1.25
-	},
-	{
-		src: Pic7,
-		width: 2,
-		height: 1.25
-	},
-	{
-		src: Pic11,
+		src: image20,
 		width: 4,
 		height: 3
 	}
