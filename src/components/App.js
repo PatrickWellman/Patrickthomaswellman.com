@@ -22,9 +22,7 @@ const App = () => {
 					<Route exact path="/chefstuff">
 						<ChefStuff />
 					</Route>
-					<Route exact path="/photogallery">
-						<PhotoSection />
-					</Route>
+				
 					<Route exact path="/resume">
 						<Resume />
 					</Route>
