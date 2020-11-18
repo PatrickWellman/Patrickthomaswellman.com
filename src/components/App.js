@@ -3,9 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Landing from './LandingComps/Landing';
 import ChefStuff from './NavComponents/ChefStuff';
 import CrustToCrumbs from './NavComponents/CrustToCrumbs';
-import PhotoSection from './NavComponents/PhotoSection';
 import Resume from './NavComponents/Resume';
-import AboutMe from './AboutMe';
 import '../components/CSS/App.css';
 
 const App = () => {
@@ -34,3 +32,7 @@ const App = () => {
 };
 
 export default App;
+
+
+
+	

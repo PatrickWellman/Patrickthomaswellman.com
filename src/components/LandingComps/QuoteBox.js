@@ -14,9 +14,11 @@ class QuoteBox extends React.Component {
 	render() {
 		const { quote } = this.state;
 		return (
+			<div className="quoteBoxContainer">
 			<div className="quoteBox">
 				<div className="dailyQuote">{quote.quote}</div>
 				<div className="quoteAuthor">{quote.author}</div>
+			</div>
 			</div>
 		);
 	}

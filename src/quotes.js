@@ -1,8 +1,5 @@
 export const quotes = [
-	{
-		quote: '"Smoke weed every day"',
-		author: '-Nate Dogg'
-	},
+	
 	{
 		quote: '"Inteligence without ambition is like a bird without wings"',
 		author: '-Salvador Dali'

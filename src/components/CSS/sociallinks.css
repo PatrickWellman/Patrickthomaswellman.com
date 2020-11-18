@@ -1,6 +1,4 @@
 
-   
-  
 
 a {
     margin: 0.5rem;
@@ -10,4 +8,11 @@ a {
 a:hover {
     color: #6affff;
     
+}
+
+.linkBox {
+    font-size: 150%;
+    display: flex;
+    padding-top: 10vh;
+    padding-left: 10vh;
 }

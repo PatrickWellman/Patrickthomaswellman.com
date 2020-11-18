@@ -1,15 +1,5 @@
-
-@media only screen and (max-width: 1356px) {
-	.word2 {
-		transform: translateX(-0.01rem) translateY(6rem);
-	}
-}
-
 @media only screen and (max-width: 1050px) {
-	.hero-text-box {
-		position: absolute;
-		top: 40%;
-		left: 8%;
+	.HeroText {
 		font-size: 200%;
 		font-weight: 100;
 		letter-spacing: 0.4rem;
@@ -17,27 +7,15 @@
 		color: #51fdfda6;
 		/* animation: moveInLeft 2s ease-out; */
 	}
-	.word2 {
-		transform: translateX(0) translateY(0);
+
+	@media only screen and (max-width: 480px) {
+		.dailyQuote,
+		.quoteAuthor {
+			font-size: 1rem;
+		}
+
+		.naviBar {
+			font-size: 0.665rem;
+		}
 	}
 }
-
-@media only screen and (max-width: 780px) {
-	.hero-text-box {
-		margin-top: 12%;
-	}
-
-
- @media only screen and (max-width: 480px) {
-	
-	.hero-text-box {
-		margin-top: 15%;
-		transform: translateX(-6%);
-	}
-
-	.dailyQuote,
-	.quoteAuthor {
-		font-size: 1rem;
-		transform: translateX(-100px);
-	}
- }}

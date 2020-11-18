@@ -1,23 +1,30 @@
+.quoteBoxContainer {
+	display: flex;
+	justify-content: center;
+}
+
 .quoteBox {
-	line-height: 1.5;
-	display: inline-block;
-	position: absolute;
-	top: 65%;
-	left: 45%;
+	margin-top: 22vh;
+	height: 7vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
 .dailyQuote {
+	display: flex;
+	justify-content: center;
 	font-size: 2rem;
-	margin-bottom: 1rem;
-	animation: fadeIn 3s ease-in;
 	font-weight: 200;
 	color: #51fdfd7e;
+	animation: fadeIn 3s ease-in;
 }
 
 .quoteAuthor {
+	display: flex;
+	justify-content: flex-end;
 	font-size: 1.2rem;
-	margin-left: 14rem;
-	animation: fadeIn 3s ease-in;
 	font-weight: 200;
 	color: #51fdfd7e;
+	animation: fadeIn 3s ease-in;
 }

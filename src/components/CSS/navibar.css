@@ -1,16 +1,19 @@
-.navBar {
-	position: absolute;
-	top: 3%;
-	left: 3%;
-}
-
-.navigation__item {
+.naviBar {
+	display: flex;
+	justify-content: space-around;
+	text-transform: uppercase;
 	font-size: 130%;
 	font-weight: 300;
-	display: inline;
-	text-transform: uppercase;
-	padding: 2rem;
+	padding-top: 3vh;
 }
-.navigation__item:hover {
-	color: black;
+
+.NavigationList {
+	display: flex;
+	justify-content: space-around;
+	
+}
+
+.NavigationItem{
+	display: flex;
+	
 }

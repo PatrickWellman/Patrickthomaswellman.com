@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from './Patrick Resume.pdf';
+import resume from './Patrick Wellman Resume.pdf';
 import NaviBar from '../LandingComps/NaviBar';
 import '../CSS/resume.css';
 const Resume = () => (

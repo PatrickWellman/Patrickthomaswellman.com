@@ -7,20 +7,22 @@ import NaviBar from './NaviBar';
 class Landing extends React.Component {
 	render() {
 		return (
-			<div className="head">
-				<NaviBar />
-				<div className="hero-text-box">
-					<span className="word1">Patrick</span>
-					<span className="word2"> Wellman</span>
-				</div>
+			<ul className="Landing">
+				<li>
+					<NaviBar />
+				</li>
+				<li className="HeroText">
+					<span className="FirstName">Patrick</span>
+					<span className="LastName"> Wellman</span>
+				</li>
 
-				<div>
+				<li className="QuoteBox">
 					<QuoteBox />
-				</div>
-				<div className="socialLinksLanding">
+				</li>
+				<li className="SocialLinks">
 					<SocialLinks />
-				</div>
-			</div>
+				</li>
+			</ul>
 		);
 	}
 }

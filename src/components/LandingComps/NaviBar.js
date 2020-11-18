@@ -6,36 +6,36 @@ import '../CSS/navibar.css';
 class NaviBar extends React.Component {
 	render() {
 		return (
-			<Container className="navBar">
-				<nav className="navigation__nav">
-					<ul className="navigation__list">
-						<li className="navigation__item">
-							<Link to="/photogallery" className="navigation__link" onClick={this.toggleMenu}>
-								photo gallery
-							</Link>
-						</li>
-						<li className="navigation__item">
+			<Container className="naviBar">
+				
+					<ul className="NavigationList">
+						<li className="NavigationItem">
+							
+							<a href="http://papa-dulce.com">Papa-Dulce Recipes</a>
+						
+						</li>	
+						<li className="NavigationItem">
 							<Link to="/crusttocrumbs" className="navigation__link" onClick={this.toggleMenu}>
 								crust to crumbs
 							</Link>
 						</li>
-						<li className="navigation__item">
+						<li className="NavigationItem">
 							<Link to="/chefstuff" className="navigation__link" onClick={this.toggleMenu}>
 								chef stuff
 							</Link>
 						</li>
-						<li className="navigation__item">
+						<li className="NavigationItem">
 							<Link to="/resume" className="navigation__link" onClick={this.toggleMenu}>
 								resume
 							</Link>
 						</li>
-						<li className="navigation__item">
+						<li className="NavigationItem">
 							<Link to="" className="navigation__link" onClick={this.toggleMenu}>
 								home
 							</Link>
 						</li>
 					</ul>
-				</nav>
+				
 			</Container>
 		);
 	}
