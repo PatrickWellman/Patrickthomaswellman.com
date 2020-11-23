@@ -10,9 +10,7 @@ class NaviBar extends React.Component {
 				
 					<ul className="NavigationList">
 						<li className="NavigationItem">
-							
 							<a href="http://papa-dulce.com">Papa-Dulce Recipes</a>
-						
 						</li>	
 						<li className="NavigationItem">
 							<Link to="/crusttocrumbs" className="navigation__link" onClick={this.toggleMenu}>
